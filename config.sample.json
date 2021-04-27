@@ -1,0 +1,26 @@
+{
+  "services": [
+    {
+      "title": "example.com",
+      "type": "https",
+      "url": "https://example.com",
+      "method": "GET",
+      "conditions": {
+        "status": 200
+      }
+    },
+    {
+      "title": "Example Application",
+      "type": "https",
+      "url": "https://twitch-video-grabber.com",
+      "method": "GET",
+      "conditions": {
+        "status": 200
+      }
+    }
+  ],
+  "reporter": {
+    "type": "slack",
+    "webhookUrl": "https://hooks.slack.com/services/REMOVEDSECRET"
+  }
+}
